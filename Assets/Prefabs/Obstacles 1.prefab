@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3667370375956065505}
   - component: {fileID: 5084253290127195970}
   m_Layer: 0
-  m_Name: Obstacles
+  m_Name: Obstacles 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57,7 +57,7 @@ GameObject:
   m_Component:
   - component: {fileID: 637599006965380642}
   - component: {fileID: 1603219572737296021}
-  - component: {fileID: 5331060418938966252}
+  - component: {fileID: 6674543407710876088}
   m_Layer: 0
   m_Name: obstacle
   m_TagString: Untagged
@@ -74,8 +74,8 @@ Transform:
   m_GameObject: {fileID: 4287526760106712625}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: -3.5, z: 0}
-  m_LocalScale: {x: 1, y: 3, z: 1}
+  m_LocalPosition: {x: 3, y: -3, z: 0}
+  m_LocalScale: {x: 1, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3667370375956065505}
@@ -132,7 +132,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5331060418938966252
+--- !u!61 &6674543407710876088
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,7 +187,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5601199811566721343}
   - component: {fileID: 2495835713703069167}
-  - component: {fileID: 2031173280605089283}
+  - component: {fileID: 464836848027834297}
   m_Layer: 0
   m_Name: obstacle
   m_TagString: Untagged
@@ -204,8 +204,8 @@ Transform:
   m_GameObject: {fileID: 6824097414361317600}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 2.5, z: 0}
-  m_LocalScale: {x: 1, y: 5, z: 1}
+  m_LocalPosition: {x: 3, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3667370375956065505}
@@ -262,7 +262,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2031173280605089283
+--- !u!61 &464836848027834297
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
